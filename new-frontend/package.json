@@ -1,0 +1,22 @@
+{
+  "name": "new-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "gl-matrix": "^3.4.3",
+    "obj-file-parser-ts": "^0.6.5",
+    "preact": "^10.22.1",
+    "webgl-obj-loader": "^2.0.8"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.8.3",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.4"
+  }
+}
