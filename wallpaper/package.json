@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "gl-matrix": "^3.4.3"
+  },
+  "name": "wallpaper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "bun build index.ts --outdir build"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
